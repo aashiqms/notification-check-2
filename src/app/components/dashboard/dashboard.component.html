@@ -1,0 +1,17 @@
+<div class="all-notify" [routerLink]="['/']">
+    All Notifactions
+</div>
+<div class="notify-blocks-container">
+    <button class="notify-blocks"
+        (click)="requestPermissions()">
+      Get Device Token    
+    </button>
+    <button class="notify-blocks"
+        (click)="copyMessage()">
+      copy token   
+    </button>
+</div>
+<p>
+    {{token}}
+</p>
+
